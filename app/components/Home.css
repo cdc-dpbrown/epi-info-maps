@@ -1,0 +1,45 @@
+.gridContainer{
+  display: grid;
+  grid-template-columns: 20% auto 25px;
+  position: absolute;
+  top: 0px; /* Header Height */
+  bottom: 0px; /* Footer Height */
+  width: 100%;
+
+}
+
+.mapContainer {
+  position: relative;
+  top: 3%;
+  left: 0px;
+}
+
+.mainNav {
+  height: 100%;
+  background-color: #2a5396;
+}
+
+.navBarList {
+  background-color: #2a5396;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.navBarList li a,
+.navBarList li a.active,
+.navBarList li a.active:hover,
+.navBarList li a.active:focus {
+  background-color: #2a5396;
+  color: white;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+
