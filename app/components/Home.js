@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import routes from '../constants/routes';
 import styles from './Home.css';
-import { Map } from './Map';
+import { MapCanvas } from './MapCanvas';
 import { Settings} from './Settings';
 
 
@@ -37,7 +37,7 @@ export default class Home extends Component<Props> {
       </ul>
     </div>
     <div >
-      <Map />
+      <MapCanvas />
     </div>
     <div >
       <Settings />
