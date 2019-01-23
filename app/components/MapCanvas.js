@@ -4,10 +4,18 @@ import { Link } from 'react-router-dom';
 import styles from './MapCanvas.css';
 import routes from '../constants/routes';
 import {
-  interaction, layer, custom, control, //name spaces
-  Interactions, Overlays, Controls, //group
-  Map, Layers, Overlay, Util //objects
-} from "react-openlayers";
+  interaction,
+  layer,
+  custom,
+  control, //name spaces
+  Interactions,
+  Overlays,
+  Controls, //group
+  Map,
+  Layers,
+  Overlay,
+  Util //objects
+} from 'epi-info-react-openlayers';
 
 type Props = {};
 
@@ -16,10 +24,10 @@ export class MapCanvas extends Component<Props> {
 
   render() {
     return (
-      <div className={styles.Component} >
-        <Map view={{center: [0, 0], zoom: 2}} >
+      <div className={styles.Component}>
+        <Map view={{ center: [0, 0], zoom: 2 }}>
           <Layers>
-            <layer.Tile/>
+            <layer.Tile />
           </Layers>
           <Controls attribution={false} zoom={true}>
             <control.Rotate />
@@ -31,8 +39,7 @@ export class MapCanvas extends Component<Props> {
             <control.Zoom />
           </Controls>
         </Map>
-        <custom.Popup ref={comp => this.popupComp = comp}>
-        </custom.Popup>
+        <custom.Popup ref={comp => (this.popupComp = comp)} />
       </div>
     );
   }
