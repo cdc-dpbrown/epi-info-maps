@@ -257,7 +257,7 @@
     "electron-debug": "^2.0.0",
     "electron-log": "^2.2.17",
     "electron-updater": "^3.2.3",
-
+    "epi-info-react-openlayers": "0.3.3",
     "history": "^4.7.2",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
