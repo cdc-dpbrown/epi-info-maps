@@ -1,8 +1,5 @@
 # epi-info-maps
 
-[![npm version](https://img.shields.io/npm/v/epi-info-maps.svg?style=flat-square)](https://www.npmjs.com/package/epi-info-maps) 
-[![Build Status](https://travis-ci.org/cdc-dpbrown/epi-info-maps.svg?branch=master)](https://travis-ci.org/cdc-dpbrown/epi-info-maps)
-
 Map data with coordinates, by choropleth, or dot density.
 
 Based on electron-react-boilerplate (https://github.com/electron-react-boilerplate/electron-react-boilerplate), react-openlayers
