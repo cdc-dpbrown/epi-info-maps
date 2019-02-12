@@ -15,7 +15,7 @@ import {
   Layers,
   Overlay,
   Util //objects
-} from 'epi-info-react-openlayers';
+} from 'react-openlayers';
 
 type Props = {};
 
